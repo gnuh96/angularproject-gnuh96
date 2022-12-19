@@ -1,0 +1,13 @@
+<h3>Create a new student</h3>
+<form class="student-form" [formGroup]="studentForm">
+  <label for="prenom">
+    First Name <br>
+    <input class="input-custom" type="text" id="prenom" [formControlName]="'prenom'">
+  </label>
+  <br>
+  <label for="nom">
+    Last Name <br>
+    <input class="input-custom" type="text" id="nom" [formControlName]="'nom'">
+  </label>
+  <br>
+</form>
